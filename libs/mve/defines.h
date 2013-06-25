@@ -14,6 +14,9 @@
 #define MVE_GEOM_NAMESPACE_BEGIN namespace geom {
 #define MVE_GEOM_NAMESPACE_END }
 
+#define MVE_GEOM_OBJ_NAMESPACE_BEGIN namespace objmodel{
+#define MVE_GEOM_OBJ_NAMESPACE_END }
+
 #ifndef STD_NAMESPACE_BEGIN
 #   define STD_NAMESPACE_BEGIN namespace std {
 #   define STD_NAMESPACE_END }
@@ -25,6 +28,8 @@ MVE_NAMESPACE_BEGIN
 MVE_IMAGE_NAMESPACE_BEGIN MVE_IMAGE_NAMESPACE_END
 /** Geometric tools, loading and processing functions. */
 MVE_GEOM_NAMESPACE_BEGIN MVE_GEOM_NAMESPACE_END
+/** Wavefront Obj loader namespace */
+MVE_GEOM_OBJ_NAMESPACE_BEGIN MVE_GEOM_OBJ_NAMESPACE_END
 MVE_NAMESPACE_END
 
 #endif /* MVE_DEFINES_HEADER */
