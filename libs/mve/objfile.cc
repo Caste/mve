@@ -294,7 +294,7 @@ MaterialLibrary::load(std::string const & _file)
             {
                 std::string line;
                 safe_get_line(mtl_file, line);
-                std::string::size_type pos = line.find("ap_dK", 0);
+                std::string::size_type pos = line.find("ap_Kd", 0);
 
                 if (pos == std::string::npos)
                 {
